@@ -1,0 +1,21 @@
+# Ignore virtual environment
+venv/
+venv311/
+.env/
+
+# Ignore cache files
+__pycache__/
+*.pyc
+
+# Ignore model weights (large files)
+*.pth
+
+# Ignore datasets (optional)
+data/train/
+data/val/
+test_images/
+
+# Ignore large video files
+*.mp4
+*.avi
+*.mov
